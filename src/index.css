@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body, #root {
+    @apply h-full font-roboto bg-gray-900
+  }
+}
+
+.test {
+  color: rgba(43, 42, 42, 0.2);
+}
